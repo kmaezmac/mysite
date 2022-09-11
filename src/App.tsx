@@ -7,6 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <form id="test">
+<input type="email" name="email" placeholder="email" aria-label="email"></input>
+        </form>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
