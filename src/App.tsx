@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 function App() {
@@ -11,15 +11,15 @@ function App() {
 <input type="email" name="email" placeholder="email" aria-label="email"></input>
         </form>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          I'm maezmac.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://twitter.com/maezmac"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Twitter
         </a>
       </header>
     </div>
