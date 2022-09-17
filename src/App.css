@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body{
+  font-family: 'メイリオ', 'Meiryo', sans-serif;
+}
+
 .App-logo {
   height: 70px;
   width: 70px;
@@ -10,7 +14,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 3s linear;
   }
 }
 
@@ -34,6 +38,56 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(15deg);
   }
+}
+
+input {
+  outline:0;
+  background-image: none!important;
+  border-radius: 0.5rem!important;
+  display: inline-block;
+  font-size: 15px;
+  height: 36px;
+  padding: 6px 14px;
+  width: 350px;
+}
+
+.inputform{
+  margin-top: 7px;
+}
+
+#forgot {
+  text-decoration: underline;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+#signUp {
+  text-decoration: underline;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+button {
+  background-image: none;
+  border-radius: 0.5rem;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  height: 46px;
+  margin-top: 50px;
+  margin-right: 0;
+  margin-bottom: 16px;
+  margin-left: 0;
+  padding: 10px 16px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 207px;
+}
+
+.Typewriter{
+  font-size: 14px;
+  margin-top: 7px;
 }
